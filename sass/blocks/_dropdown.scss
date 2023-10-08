@@ -1,0 +1,48 @@
+.dropdown {
+	padding: 0px 38px 0px 18px;
+	height: 44px;
+
+	position: relative;
+
+	color: #020B2A;
+	font-size: 16px;
+	line-height: 44px;
+	font-weight: 400;
+	letter-spacing: 0.32px;
+
+	border-radius: 22px;
+	border: 1px solid #EFF2F4;
+
+	&::after {
+		content: '';
+		position: absolute;
+		width: 12px;
+		height: 7px;
+		top: 50%;
+		right: 18px;
+		transform: translateY(-50%);
+		background-image: url('./../images/top-icons/arrow-down.svg');
+
+		@media(max-width: 1070px) {
+			right: 10px;
+		}
+
+		@media(max-width: 475px) {
+			right: 5px;
+		}
+	}
+
+	@media(max-width: 1070px) {
+		font-size: 13px;
+		line-height: 31px;
+		height: 33px;
+		padding: 0px 27px 0px 12px;
+	}
+
+	@media(max-width: 475px) {
+		font-size: 10px;
+		line-height: 10px;
+		padding: 0px 20px 0px 5px;
+		border-radius: 12px;
+	}
+}

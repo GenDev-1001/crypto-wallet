@@ -1,0 +1,158 @@
+.earn-free__wrapper {
+	position: relative;
+	align-self: flex-start;
+
+
+	&::before {
+		content: '';
+		position: absolute;
+		width: 345px;
+		height: 48px;
+		bottom: -16px;
+		left: 50%;
+		transform: translateX(-50%);
+		z-index: 2;
+
+		border-radius: 24px;
+		background: #DFDFE3;
+
+		@media(max-width: 1270px) {
+			width: 260px;
+			height: 20px;
+			bottom: -8px;
+		}
+
+		@media(max-width: 1070px) {
+			width: 240px;
+			height: 10px;
+			bottom: -5px;
+		}
+
+
+	}
+
+	&::after {
+		content: '';
+		position: absolute;
+		width: 295px;
+		height: 48px;
+		bottom: -28px;
+		left: 50%;
+		transform: translateX(-50%);
+		z-index: 1;
+
+		border-radius: 24px;
+		background: #F0F0F1;
+
+		@media(max-width: 1270px) {
+			width: 240px;
+			height: 20px;
+			bottom: -16px;
+		}
+
+		@media(max-width: 1070px) {
+			width: 220px;
+			height: 10px;
+			bottom: -9px;
+		}
+	}
+
+	@media(max-width: 865px) {
+		display: none;
+	}
+}
+
+.earn-free {
+	position: relative;
+	z-index: 9;
+	width: 410px;
+	height: 363px;
+	padding: 60px 40px 60px 34px;
+
+	border-radius: 30px;
+
+	background-image: url('./../images/earn-card/bg-cards.svg');
+	background-repeat: no-repeat;
+	background-size: initial;
+	background-position: right bottom;
+
+	@media(max-width: 1270px) {
+		width: 300px;
+		height: 324px;
+		padding: 20px;
+	}
+
+
+	@media(max-width: 1070px) {
+		width: 285px;
+
+		padding: 15px;
+	}
+
+}
+
+.earn-free__title {
+	margin-bottom: 11px;
+
+	color: #FFF;
+	font-size: 30px;
+	line-height: 1.46;
+	font-weight: 600;
+	letter-spacing: 0.02em;
+
+	b {
+		font-weight: 700;
+	}
+
+	@media(max-width: 1270px) {
+		font-size: 20px;
+	}
+}
+
+.earn-free__title-span {
+	display: inline-block;
+	background-image: url(./../images/earn-card/free.svg);
+	background-position: center;
+	background-size: contain;
+	width: 97.3px;
+	height: 74.73px;
+	font-size: 0;
+	vertical-align: middle;
+
+	@media(max-width: 1270px) {
+		width: 80.3px;
+		height: 70.73px;
+	}
+
+}
+
+.earn-free__text {
+	margin-bottom: 35px;
+
+	color: #FFF;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 1.46;
+	letter-spacing: 0.02em;
+
+	@media(max-width: 1270px) {
+		font-size: 12px;
+		line-height: 1.20;
+	}
+}
+
+.earn-free__button {
+	padding: 10px 35px 12px;
+
+	border-radius: 23px;
+	background: #BCDFFF;
+
+	color: #000;
+	font-size: 16px;
+	font-weight: 600;
+
+	@media(max-width: 1070px) {
+		font-size: 12px;
+		padding: 6px 20px 8px;
+	}
+}

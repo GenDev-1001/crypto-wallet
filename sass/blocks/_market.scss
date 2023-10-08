@@ -1,0 +1,25 @@
+.market {
+	flex-grow: 1;
+}
+
+.market__header {
+	margin-bottom: 25px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	@media(max-width: 865px) {
+		margin-bottom: 10px;
+	}
+
+
+}
+
+.market__header-btns {
+	display: flex;
+	column-gap: 16px;
+
+	@media(max-width: 475px) {
+		column-gap: 5px;
+	}
+}

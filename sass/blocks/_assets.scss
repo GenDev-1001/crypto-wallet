@@ -1,0 +1,32 @@
+.assets {
+	flex-grow: 1;
+
+	@media(max-width:1520px) {
+		flex-grow: 0;
+	}
+}
+
+.assets__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 24px;
+
+	@media(max-width: 865px) {
+		margin-bottom: 10px;
+	}
+}
+
+.assets__cards {
+	display: flex;
+	column-gap: 30px;
+
+	@media(max-width: 1270px) {
+		column-gap: 10px;
+	}
+
+	@media(max-width: 865px) {
+		justify-content: center;
+
+	}
+}
