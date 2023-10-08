@@ -1,0 +1,11 @@
+.portfolio {
+	flex-grow: 1;
+}
+
+.portfolio__title {
+	margin-bottom: 24px;
+
+	@media(max-width: 865px) {
+		margin-bottom: 10px;
+	}
+}

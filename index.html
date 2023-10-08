@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Crypto wallet</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+	<div class="dashboard">
+		<div class="dashboard__nav">
+			<nav class="nav">
+				<div class="nav__logo">
+					<a href="#!" class="logo__link">
+						<img class="logo__img" src="./images/nav-icons/logo.svg" alt="logo">
+					</a>
+				</div>
+				<ul class="nav__icons">
+					<li class="nav__icons-item">
+						<a href="!#" class="nav__icons-link">
+							<img class="nav__icons-img" src="./images/nav-icons/dashbord.svg" alt="icons">
+						</a>
+					</li>
+					<li class="nav__icons-item">
+						<a href="!#" class="nav__icons-link">
+							<img class="nav__icons-img" src="./images/nav-icons/wallet.svg" alt="icons">
+						</a>
+					</li>
+					<li class="nav__icons-item">
+						<a href="!#" class="nav__icons-link">
+							<img class="nav__icons-img" src="./images/nav-icons/charts.svg" alt="icons">
+						</a>
+					</li>
+					<li class="nav__icons-item">
+						<a href="!#" class="nav__icons-link">
+							<img class="nav__icons-img" src="./images/nav-icons/cube.svg" alt="icons">
+						</a>
+					</li>
+					<li class="nav__icons-item">
+						<a href="!#" class="nav__icons-link">
+							<img class="nav__icons-img" src="./images/nav-icons/user.svg" alt="icons">
+						</a>
+					</li>
+					<li class="nav__icons-item">
+						<a href="!#" class="nav__icons-link">
+							<img class="nav__icons-img" src="./images/nav-icons/exit.svg" alt="icons">
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="dashboard__body">
+
+			<div class="dashboard__header">
+				<h1 class="title-1">Overview</h1>
+				<div class="dashboard__header-icons">
+					<button class="header-icon">
+						<img src="./images/top-icons/search.svg" alt="search icon">
+					</button>
+					<button class="header-icon header-icon--new">
+						<img src="./images/top-icons/bell.svg" alt="notification icon">
+					</button>
+
+					<div class="user-profile">
+						<a href='!#' class="user-profile__avatar">
+							<img src="./images/top-icons/avatar.svg" alt="icons avatar">
+						</a>
+						<button class="user-profile__nav-button">Zoia M.</button>
+					</div>
+				</div>
+			</div>
+			<div class="dashboard__cards">
+
+				<div class="portfolio">
+					<h2 class="portfolio__title title-2">Portfolio</h2>
+					<div class="card-balance">
+						<div class="card-balance__balance">
+							<div class="card-balance__balance-value">$ 17 643.41</div>
+							<div class="card-balance__balance-descr">Portfolio balance</div>
+						</div>
+						<button class="card-balance__settings">
+							<div class="icon-show-more"></div>
+						</button>
+
+						<div class="card-balance__period">
+							<button class="card-balance__period-btn">1H</button>
+							<button class="card-balance__period-btn">24H</button>
+							<button class="card-balance__period-btn card-balance__period-btn--active">1W</button>
+							<button class="card-balance__period-btn">1M</button>
+							<button class="card-balance__period-btn">1Y</button>
+							<button class="card-balance__period-btn">ALL</button>
+						</div>
+						<img src="./images/image/chart.svg" alt="chart image" class="card-balance__chart">
+					</div>
+				</div>
+				<div class="assets">
+					<div class="assets__header">
+						<h2 class="assets__title title-2">Your Assets</h2>
+						<button class="assets-btn">
+							<img src="./images/top-icons/settings.svg" alt="settings icons" class="assets__icon">
+						</button>
+					</div>
+					<div class="assets__cards">
+						<div class="asset-card asset-card--violet">
+							<div class="asset-card__value">1.25 BTC</div>
+							<div class="asset-card__fiat">$ 2948.04</div>
+							<div class="asset-card__settings">
+								<div class="icon-show-more"></div>
+							</div>
+
+							<div class="asset-card__footer">
+								<div class="asset-card__icon">
+									<img class="asset-card__icon-img" src="./images/cards-icons/bitcoin.svg"
+										alt="bitcoin icons">
+								</div>
+								<div class="asset-card__income">+ 0.14%</div>
+							</div>
+						</div>
+
+						<div class="asset-card asset-card--green">
+							<div class="asset-card__value">0.32 LTC</div>
+							<div class="asset-card__fiat">$ 2948.04</div>
+							<div class="asset-card__settings">
+								<div class="icon-show-more"></div>
+							</div>
+
+							<div class="asset-card__footer">
+								<div class="asset-card__icon">
+									<img class="asset-card__icon-img" src="./images/cards-icons/litecoin.svg"
+										alt="bitcoin icons">
+								</div>
+								<div class="asset-card__income">+ 0.31%</div>
+							</div>
+						</div>
+
+						<div class="asset-card asset-card--orange">
+							<div class="asset-card__value">1.25 ETH</div>
+							<div class="asset-card__fiat">$ 2948.04</div>
+							<div class="asset-card__settings">
+								<div class="icon-show-more"></div>
+							</div>
+
+							<div class="asset-card__footer">
+								<div class="asset-card__icon">
+									<img class="asset-card__icon-img" src="./images/cards-icons/ethereum.svg"
+										alt="bitcoin icons">
+								</div>
+								<div class="asset-card__income">+ 0.27%</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="dashboard__market">
+				<div class="market">
+					<div class="market__header">
+						<h2 class="title-market">Market is down 0.80%</h2>
+						<div class="market__header-btns">
+							<button class="dropdown">24h</button>
+							<button class="dropdown">Top gainers</button>
+						</div>
+					</div>
+					<div class="market__table">
+						<table class="market-table" cellpadding="0" cellspacing="0">
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>Price</th>
+									<th>Chanee </th>
+									<th class="text-right">Market Cap</th>
+									<th>Watch</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										<div class="coin">
+											<div class="coin__icon">
+												<img src="./images/currency-icons/band-protocol-band-logo.svg"
+													alt="band-protocol icon">
+											</div>
+											<div class="coin__header">
+												<div class="coin__title">Band Protocol</div>
+												<div class="coin__descr">BAND</div>
+											</div>
+										</div>
+									</td>
+									<td>
+										<div class="market-table__price">$2.42</div>
+									</td>
+									<td>
+										<div class="market-table__chanee">
+											+13.38%
+										</div>
+									</td>
+									<td>
+										<div class="market-table__cap text-right">$399.8M</div>
+									</td>
+									<td>
+										<button class="market-table__watch">
+											<img src="./images/icons/star.svg" alt="rate icons"
+												class="market-table__watch-img">
+										</button>
+									</td>
+								</tr>
+
+								<tr>
+									<td>
+										<div class="coin">
+											<div class="coin__icon">
+												<img src="./images/currency-icons/veChain.svg" alt="veChain icon">
+											</div>
+											<div class="coin__header">
+												<div class="coin__title">VeChain</div>
+												<div class="coin__descr">VET</div>
+											</div>
+										</div>
+									</td>
+									<td>
+										<div class="market-table__price">$7.48</div>
+									</td>
+									<td>
+										<div class="market-table__chanee">
+											+11.19%
+										</div>
+									</td>
+									<td>
+										<div class="market-table__cap text-right">$152.5M</div>
+									</td>
+									<td>
+										<button class="market-table__watch">
+											<img src="./images/icons/star.svg" alt="rate icons"
+												class="market-table__watch-img">
+										</button>
+									</td>
+								</tr>
+
+								<tr>
+									<td>
+										<div class="coin">
+											<div class="coin__icon">
+												<img src="./images/currency-icons/aave.svg" alt="aave icon">
+											</div>
+											<div class="coin__header">
+												<div class="coin__title">Aave</div>
+												<div class="coin__descr">AAVE</div>
+											</div>
+										</div>
+									</td>
+									<td>
+										<div class="market-table__price">$0.0184</div>
+									</td>
+									<td>
+										<div class="market-table__chanee">
+											+7.57%
+										</div>
+									</td>
+									<td>
+										<div class="market-table__cap text-right">$1.2B</div>
+									</td>
+									<td>
+										<button class="market-table__watch">
+											<img src="./images/icons/star.svg" alt="rate icons"
+												class="market-table__watch-img">
+										</button>
+									</td>
+								</tr>
+
+								<tr>
+									<td>
+										<div class="coin">
+											<div class="coin__icon">
+												<img src="./images/currency-icons/waves.svg" alt="waves icon">
+											</div>
+											<div class="coin__header">
+												<div class="coin__title">Waves</div>
+												<div class="coin__descr">WAVES</div>
+											</div>
+										</div>
+									</td>
+									<td>
+										<div class="market-table__price">$30.68</div>
+									</td>
+									<td>
+										<div class="market-table__chanee">
+											+6.80%
+										</div>
+									</td>
+									<td>
+										<div class="market-table__cap text-right">$399.8M</div>
+									</td>
+									<td>
+										<button class="market-table__watch">
+											<img src="./images/icons/star.svg" alt="rate icons"
+												class="market-table__watch-img">
+										</button>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="earn-free__wrapper">
+					<div class="earn-free">
+						<div class="earn-free__title">
+							<b>Earn <span class="earn-free__title-span">free</span> crypto</b>
+							with Coinview Earn!
+						</div>
+						<div class="earn-free__text">Learn about different cryptocurrencies and
+							earn them for free!</div>
+						<button class="earn-free__button">Earn now</button>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</body>
+
+</html>

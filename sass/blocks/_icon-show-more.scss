@@ -1,0 +1,42 @@
+%round {
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background-color: #A09BA8;
+
+	@media(max-width: 475px) {
+		width: 2px;
+		height: 2px;
+	}
+}
+
+
+.icon-show-more {
+	position: relative;
+	cursor: pointer;
+	@extend %round;
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: -8px;
+		left: 0;
+		@extend %round;
+
+		@media(max-width: 475px) {
+			top: -4px;
+		}
+	}
+
+	&::after {
+		content: '';
+		bottom: -8px;
+		left: 0;
+		position: absolute;
+		@extend %round;
+
+		@media(max-width: 475px) {
+			bottom: -4px;
+		}
+	}
+}

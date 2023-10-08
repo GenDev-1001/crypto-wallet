@@ -1,0 +1,105 @@
+.card-balance {
+	position: relative;
+	width: 486px;
+	height: 244px;
+	padding: 26px 28px 25px 35px;
+
+	border-radius: 24px;
+	background: #E5F2FE;
+
+	@media(max-width: 1520px) {
+		width: 100%;
+	}
+
+	@media(max-width: 1270px) {
+		padding: 20px;
+		height: 220px;
+	}
+
+	@media(max-width: 865px) {
+		padding: 15px;
+		height: 210px;
+	}
+}
+
+.card-balance__balance-value {
+	margin-bottom: 5px;
+
+	color: #000;
+	font-size: 28px;
+	font-weight: 600;
+	letter-spacing: 0.02em;
+
+
+	@media(max-width: 1270px) {
+		font-size: 20px;
+	}
+
+}
+
+.card-balance__balance-descr {
+	color: #000;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.02em;
+}
+
+.card-balance__settings {
+	position: absolute;
+	top: 37px;
+	right: 28px;
+
+	height: 20px;
+	width: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	@media(max-width: 865px) {
+		top: 15px;
+		right: 15px;
+	}
+}
+
+.card-balance__period {
+	position: absolute;
+	bottom: 25px;
+	left: 34px;
+
+	display: flex;
+	column-gap: 24px;
+
+	@media(max-width: 1270px) {
+		column-gap: 10px;
+	}
+}
+
+.card-balance__period-btn {
+	color: #ACBCCD;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.02em;
+
+	&--active {
+		color: #040404;
+	}
+}
+
+.card-balance__chart {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 27px;
+
+	@media(max-width: 1520px) {
+		width: 100%;
+	}
+
+	@media(max-width: 865px) {
+		bottom: 5px;
+	}
+
+	@media(max-width: 475px) {
+		bottom: 40px;
+	}
+}
