@@ -6,6 +6,7 @@
 	left: 40px;
 	right: 40px;
 
+
 	display: flex;
 	max-width: 1439px;
 	margin: auto auto;
@@ -21,17 +22,28 @@
 		right: 0;
 	}
 
+	@media(max-width: 1270px) {
+		height: 820px;
+	}
+
+	@media(max-width: 1070px) {
+		height: 780px;
+	}
+
 	@media(max-width: 865px) {
 		margin: auto 5px;
+		height: 835px;
 	}
 
 	@media(max-width: 590px) {
 		margin: auto auto;
 		flex-direction: column;
+		height: 880px;
 	}
 
 	@media(max-width: 475px) {
 		margin: 10px auto;
+		height: 715px;
 	}
 }
 
@@ -72,8 +84,17 @@
 		padding: 20px 20px 10px 20px;
 	}
 
+	@media(max-width: 1270px) {
+		height: 780px;
+	}
+
+	@media(max-width: 1070px) {
+		height: 745px;
+	}
+
 	@media (max-width: 865px) {
 		padding: 15px;
+		height: 800px;
 	}
 
 	@media(max-width: 590px) {
